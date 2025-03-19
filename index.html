@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yoga Rizki Pratama - Portfolio</title>
+    <meta name="description" content="Portfolio of Yoga Rizki Pratama, a student at SMKN 12 Surabaya" />
+    <meta name="author" content="Yoga Rizki Pratama" />
+    <meta property="og:image" content="/og-image.png" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  </head>
+
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <div class="logo">YogaxD</div>
+        <ul class="nav-links">
+          <li><a href="#home" class="active">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </nav>
+
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1>Yoga Rizki Pratama</h1>
+          <h2>Student & Web Developer</h2>
+          <p>Creating digital experiences through code</p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">View My Work</a>
+            <a href="#contact" class="btn btn-secondary">Contact Me</a>
+          </div>
+        </div>
+      </div>
+      <div class="hero-shape"></div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <div class="section-header">
+          <h2>About Me</h2>
+          <div class="underline"></div>
+        </div>
+        <div class="about-content">
+          <div class="about-image">
+            <div class="image-container">
+              <img src="img/yoga.jpg" alt="Yoga Rizki Pratama" class="profile-image">
+            </div>
+          </div>
+          <div class="about-text">
+            <h3>Hello there! I'm Yoga Rizki Pratama</h3>
+            <p>I'm a passionate student at SMKN 12 Surabaya, focused on developing my skills in web development and programming. Through my studies, I've gained knowledge in various technologies and have applied these skills in different projects.</p>
+            <p>When I'm not coding, I enjoy learning new technologies, and finding creative solutions to problems through technology.</p>
+            <div class="about-details">
+              <div class="detail">
+                <i class="fas fa-graduation-cap"></i>
+                <p>Student at SMKN 12 Surabaya</p>
+              </div>
+              <div class="detail">
+                <i class="fas fa-code"></i>
+                <p>Web Developer & Game Developer</p>
+              </div>
+              <div class="detail">
+                <i class="fas fa-map-marker-alt"></i>
+                <p>Surabaya, Indonesia</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects">
+      <div class="container">
+        <div class="section-header">
+          <h2>My Projects</h2>
+          <div class="underline"></div>
+        </div>
+        <div class="project-filter">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="web">Web</button>
+          <button class="filter-btn" data-filter="apps">Apps</button>
+          <button class="filter-btn" data-filter="school">School</button>
+        </div>
+        <div class="projects-grid">
+          <div class="project-card" data-category="web">
+            <div class="project-img">
+              <img src="img/sahabat-tajwid.png" alt="Sahabat Tajwid">
+            </div>
+            <div class="project-content">
+              <h3>Sahabat Tajwid</h3>
+              <p>Pembelajaran tata cara membaca Al-Quran dengan benar.</p>
+              <div class="project-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+              <a href="https://sahabat-tajwid.vercel.app/" class="project-link">View Project</a>
+              <a href="https://github.com/yogaxdd/Sahabat-Tajwid" class="project-source-link">View Source Code</a>
+            </div>
+          </div>
+          <div class="project-card" data-category="web">
+            <div class="project-img">
+              <img src="img/valentine.png" alt="Valentine Website">
+            </div>
+            <div class="project-content">
+              <h3>Valentine Website</h3>
+              <p>Website ucapan pada hari Valentine</p>
+              <div class="project-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+              <a href="https://happyvalentineforyou.vercel.app/" class="project-link">View Project</a>
+              <a href="https://github.com/yogaxdd/Valentine-Website" class="project-source-link">View Source Code</a>
+            </div>
+          </div>
+          <div class="project-card" data-category="school">
+            <div class="project-img">
+              <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6" alt="School Management System">
+            </div>
+            <div class="project-content">
+              <h3>Exam Mod For Bimasoft CBT</h3>
+              <p>Pasti tau lah buat apa ini</p>
+              <div class="project-tags">
+                <span>Java</span>
+                <span>Html</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+              <a href="https://github.com/yogaxdd/CBT-ExamMod" class="project-link">View Project</a>
+              <a href="https://github.com/yogaxdd/CBT-ExamMod" class="project-source-link">View Source Code</a>
+            </div>
+          </div>
+          <div class="project-card" data-category="web">
+            <div class="project-img">
+              <img src="img/photobooth.png" alt="Personal Blog">
+            </div>
+            <div class="project-content">
+              <h3>Website Photobooth</h3>
+              <p>Website untuk mengambil foto bersama</p>
+              <div class="project-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+              <a href="https://sinemarolas-photobooth.vercel.app/" class="project-link">View Project</a>
+              <a href="https://github.com/yogaxdd/Sinemarolas-Photobooth" class="project-source-link">View Source Code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills">
+      <div class="container">
+        <div class="section-header">
+          <h2>My Skills</h2>
+          <div class="underline"></div>
+        </div>
+        <div class="skills-content">
+          <div class="skills-category">
+            <h3>Web Development</h3>
+            <div class="skills-list">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>HTML</span>
+                  <span>80%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 80%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>CSS</span>
+                  <span>75%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 75%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>JavaScript</span>
+                  <span>40%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 40%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="skills-category">
+            <h3>Game Developer</h3>
+            <div class="skills-list">
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>Unity</span>
+                  <span>40%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 40%"></div>
+                </div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-info">
+                  <span>C#</span>
+                  <span>30%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 30%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="technologies">
+          <div class="tech-item">
+            <i class="fab fa-html5"></i>
+            <span>HTML5</span>
+          </div>
+          <div class="tech-item">
+            <i class="fab fa-css3-alt"></i>
+            <span>CSS3</span>
+          </div>
+          <div class="tech-item">
+            <i class="fab fa-js"></i>
+            <span>JavaScript</span>
+          </div>
+          <div class="tech-item">
+            <i class="fab fa-git-alt"></i>
+            <span>Git</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="section-header">
+          <h2>Get In Touch</h2>
+          <div class="underline"></div>
+        </div>
+        <div class="contact-content">
+          <div class="contact-info">
+            <h3>Contact Information</h3>
+            <p>Feel free to reach out to me with any questions or opportunities!</p>
+            <div class="contact-details">
+              <div class="contact-item">
+                <i class="fas fa-envelope"></i>
+                <p>yoga.rizki@example.com</p>
+              </div>
+              <div class="contact-item">
+                <i class="fas fa-phone"></i>
+                <p>+62 123-456-7890</p>
+              </div>
+              <div class="contact-item">
+                <i class="fas fa-map-marker-alt"></i>
+                <p>Surabaya, Indonesia</p>
+              </div>
+            </div>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-github"></i></a>
+              <a href="#"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+          </div>
+          <div class="contact-form">
+            <h3>Send Me a Message</h3>
+            <form id="contactForm">
+              <div class="form-group">
+                <input type="text" id="name" placeholder="Your Name" required>
+              </div>
+              <div class="form-group">
+                <input type="email" id="email" placeholder="Your Email" required>
+              </div>
+              <div class="form-group">
+                <input type="text" id="subject" placeholder="Subject">
+              </div>
+              <div class="form-group">
+                <textarea id="message" placeholder="Your Message" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <h3>Yoga Rizki Pratama</h3>
+            <p>Student & Web Developer</p>
+          </div>
+          <div class="footer-links">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2023 Yoga Rizki Pratama. All Rights Reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- IMPORTANT: DO NOT REMOVE THIS SCRIPT TAG OR THIS VERY COMMENT! -->
+    <script src="https://cdn.gpteng.co/gptengineer.js" type="module"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
