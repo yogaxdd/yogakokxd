@@ -2261,6 +2261,15 @@ button {
         height: 320px;
     }
 
+    .hero-slider {
+        width: 260px;
+        height: 320px;
+    }
+
+    .hero-image-frame {
+        padding: 0.75rem;
+    }
+
     .hero-stats {
         flex-direction: column;
         gap: 1.5rem;
@@ -2325,6 +2334,29 @@ button {
 
     .filter-btn {
         width: 100%;
+    }
+
+    .hero-image {
+        width: 220px;
+        height: 280px;
+    }
+
+    .hero-slider {
+        width: 220px;
+        height: 280px;
+    }
+
+    .hero-image-frame {
+        padding: 0.5rem;
+    }
+
+    .slider-dots {
+        bottom: -25px;
+    }
+
+    .slider-dots .dot {
+        width: 10px;
+        height: 10px;
     }
 }
 
